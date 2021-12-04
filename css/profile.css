@@ -1,0 +1,299 @@
+.main {
+    background-color: #E5E5E5;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.user-block__p {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #ACACAC;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.user-img {
+    width: 145px;
+    height: 145px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: -40px;
+}
+
+#file {
+    display: none;
+}
+
+#upload {
+    cursor: pointer;
+    position: absolute;
+    right: 39%;
+}
+
+.user__photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.profile__block {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    width: 82%;
+    margin: 0 auto;
+    padding-bottom: 140px;
+}
+
+.oredrs__a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #F1C40F;
+    margin-left: 60px;
+}
+
+.order__line {
+    width: 172px;
+    height: 2px;
+    background-color: #F1C40F;
+    margin-top: 15px;
+}
+
+.order__block {
+    margin-top: 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    padding: 23px 0;
+}
+
+.info__text__p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ACACAC;
+}
+
+.info__text__span {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #151515;
+}
+
+.profile-registan {
+    width: 102px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 70px;
+}
+
+.order__block__info {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.info__text-all {
+    display: flex;
+    justify-content: space-between;
+    width: 133%;
+}
+
+.download__span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F1C40F;
+}
+
+.text__download {
+    text-decoration: none;
+}
+
+.info__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.span__price {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 27px;
+    color: #F1C40F;
+    margin-left: 20px;
+}
+
+.span__img {
+    width: 29px;
+    height: 29px;
+    margin-left: 30px;
+}
+
+
+.info__text__span {
+    display: flex;
+    align-items: center;
+}
+
+.info__text-all:first-child {
+    margin-bottom: 5px;
+}
+
+.order__block:last-child {
+    margin-top: 23px;
+}
+
+@media (max-width: 1200px) {
+    #upload {
+        right: 37%;
+    }
+}
+
+@media (max-width: 992px) {
+    .profile-registan {
+        margin-right: 30px;
+    }
+
+    .order__block__info {
+        width: 90%;
+    }
+
+    .info__text-all {
+        width: 135%;
+    }
+
+    .info__text__span {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .span__price {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .span__img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .profile__block {
+        padding-bottom: 100px;
+    }
+
+    #upload {
+        right: 35%;
+    }
+}
+
+@media (max-width: 768px) {
+    .user-img {
+        width: 125px;
+        height: 125px;
+    }
+
+    .user-block__p {
+        margin-bottom: 30px;
+    }
+
+    .order__block__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info__payment {
+        width: 100%;
+    }
+
+    .info__text-all {
+        width: auto;
+    }
+
+    .profile-registan {
+        margin-right: 0;
+    }
+
+    .profile-registan {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    #upload {
+        right: 29%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    #upload {
+        right: 15%;
+    }
+
+    .user-block__p {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .order-tab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oredrs__a {
+        margin-left: 0;
+    }
+
+    .profile-registan {
+        width: 125px;
+    }
+
+    .info__text-all {
+        flex-direction: column;
+    }
+
+    .info__text {
+        flex-direction: row;
+        margin-bottom: 5px;
+    }
+
+    .info__text__p {
+        margin-right: 5px;
+    }
+
+    .text__download {
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+    .info__text__p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .span__price {
+        font-size: 15px;
+        line-height: 21px;
+        margin-left: 15px;
+    }
+
+    .span__img {
+        width: 19px;
+        height: 19px;
+    }
+
+    .profile__block {
+        padding-bottom: 75px;
+    }
+
+    .container {
+        max-width: 100% !important;
+    }
+}

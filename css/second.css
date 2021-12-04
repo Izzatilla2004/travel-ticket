@@ -1,0 +1,412 @@
+.main {
+    background-color: #E5E5E5;
+}
+
+.pages-link__a {
+    font-weight: 500;
+    font-size: 15.4869px;
+    line-height: 19px;
+    color: #616161;
+    text-decoration: none;
+}
+
+.pages-link {
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.second-button-prev, .second-button-next {
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background-color: #616161;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+}
+
+.second-button-next {
+    right: -3%;
+}
+
+.second-button-prev {
+    left: -3%;
+}
+
+.swiper {
+    width: 854px;
+}
+
+.city-ifno__block {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    padding: 57px 33px 57px 61px;
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-block {
+    position: relative;
+}
+
+.city-info {
+    padding-bottom: 45px;
+}
+
+.city-info-text {
+    font-weight: bold;
+    font-size: 40.2632px;
+    line-height: 49px;
+    color: #000;
+    margin-bottom: 57px;
+}
+
+.othrer-cities__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.first__p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 169.4%;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.first__p:last-child {
+    margin-bottom: 0;
+}
+
+.more-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0;
+}
+
+.more-info__first {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.buy-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.buy-block__price {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.buy-block__button {
+    width: 231px;
+    padding: 18px 0;
+    border: none;
+    cursor: pointer;
+    background: #F1C40F;
+    border-radius: 25.7835px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.buy-block__review {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.review__p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #616161;
+    font-weight: normal;
+}
+
+.review__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review_button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 18px;
+}
+
+.review_button:last-child {
+    margin-right: 0;
+}
+
+.line-grey {
+    width: 100%;
+    height: 1px;
+    background-color: #616161;
+}
+
+.other-cities__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: #616161;
+    margin-top: 35px;
+}
+
+.main-block {
+    width: 73%;
+}
+
+.main-h {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 110.4%;
+    color: #000000;
+    padding: 20px 176px 20px 23px;
+    background-color: #EFEFEF;
+    border-radius: 17px
+}
+
+.main_city_all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.city-info-more__links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 27px;
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 35px;
+    transition: 0.2s ease all;
+}
+
+.links__a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110.4%;
+    color: #000000;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+
+.links__a:hover {
+    text-decoration: underline;
+}
+
+.links__a-kokand {
+    margin-bottom: 0;
+}
+
+.rm-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.rm-block__a {
+    background: #FFEB9B;
+    opacity: 0.5;
+    border-radius: 11px;
+    width: 97px;
+    padding: 9px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 11.2024px;
+    line-height: 14px;
+    color: #F1C40F;
+    text-decoration: none;
+}
+
+.rm-block .links__a {
+    margin-bottom: 0;
+}
+
+.bs-h {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-top: 80px;
+    padding-bottom: 45px;
+}
+
+.price-media {
+    display: none;
+}
+
+@media screen and (max-width:1400px) {
+    .registan-img {
+        width: 775px;
+    }
+
+    .swiper {
+        width: 775px;
+    }
+
+    .second-button-next {
+        right: -4%;
+    }
+
+    .second-button-prev {
+        left: -4%;
+    }
+
+    .other-cities__a img {
+        width: 145px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-h {
+        padding: 15px 125px 15px 19px;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+    .registan-img {
+        width: 100%;
+    }
+
+    .other-cities__a img {
+        width: 115px;
+    }
+
+    .buy-block__button {
+        width: 200px;
+        padding: 15px 0;
+    }
+
+    .second-button-prev {
+        left: -5%;
+    }
+
+    .second-button-next {
+        right: -5%;
+    }
+}
+
+@media (max-width: 992px) {
+    .city-ifno__block2 {
+        display: none;
+    }
+
+    .main-block {
+        width: 100%;
+    }
+
+    .other-cities__a:last-child {
+        display: none;
+    }
+
+    .other-cities__a img {
+        width: 145px;
+    }
+}
+
+@media (max-width: 768px) {
+    .other-cities__a:nth-of-type(4) {
+        display: none;
+    }
+
+    .other-cities__a img {
+        width: 155px;
+    }
+
+    .city-ifno__block {
+        padding: 57px 33px 57px 33px;
+    }
+
+    .bs-h {
+        font-size: 31px;
+        line-height: 37px;
+    }
+}
+
+@media (min-width:320px) and (max-width: 576px) {
+    .city-info-text {
+        font-size: 35px;
+        line-height: 43px;
+    }
+
+    .second-button-prev, .second-button-next {
+        width: 35px;
+        height: 35px;
+        top: 37%;
+    }
+    .white-arrow {
+        width: 9px;
+    }
+
+    .other-cities__text {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .more-info {
+        flex-direction: column;
+    }
+    .buy-block__price {
+        display: none;
+    }
+    .price-media {
+        display: block;
+        margin: 10px 0;
+    }
+    .buy_block_media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .other-cities__a img {
+        width: 80px;
+    }
+    .city-info-text {
+        margin-bottom: 50px;
+    }
+    .city-ifno__block {
+        padding: 40px 25px;
+    }
+    .more-info {
+        margin: 0;
+    }
+    .first__p {
+        margin: 0;
+    }
+    .bs-h {
+        font-size: 27px;
+        line-height: 33px;
+    }
+    .buy-block__button {
+        width: 175px;
+        padding: 13px 0;
+    }
+
+    .buy-block__review {
+        margin-bottom: 5px;
+    }
+    .buy-block__review {
+        margin-top: 30px;
+    }
+}
+
